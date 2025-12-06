@@ -1,0 +1,6 @@
+# No external dependencies required
+# This package uses only Python standard library
+
+# Optional (for visualization, not required for core functionality):
+# matplotlib>=3.5.0
+# numpy>=1.20.0
