@@ -8,7 +8,7 @@ based on continued fraction expansions.
 This code implements the theoretical framework from:
 "On the Consonance of Prime Factorization: A Continued Fraction Analysis 
 of Digit Ratio Resonance with Riemann Zeta Zeros"
-by Masamichi Iizumi and Tamaki Iizumi (2025)
+by Masamichi Iizumi (2025)
 
 Key Concepts
 ------------
@@ -36,11 +36,11 @@ MIT License
 
 Authors
 -------
-Masamichi Iizumi and Tamaki Iizumi
+Masamichi Iizumi 
 """
 
 __version__ = "1.0.0"
-__author__ = "Masamichi Iizumi, Tamaki Iizumi"
+__author__ = "Masamichi Iizumi,
 
 
 def continued_fraction(x, depth=10):
