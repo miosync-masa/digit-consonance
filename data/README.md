@@ -96,7 +96,7 @@ mpmath.mp.dps = 80
 gamma_n = mpmath.zetazero(n).imag
 ```
 
-Computing all 10,000 zeros takes approximately 1-2 hours on a modern CPU.
+Computing all 10,000 zeros takes approximately 3-4 hours on a modern CPU.
 
 ## Usage
 ```python
