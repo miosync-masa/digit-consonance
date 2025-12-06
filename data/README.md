@@ -2,6 +2,46 @@
 
 This directory contains the first 10,000 non-trivial zeros of the Riemann zeta function.
 
+## Files
+
+- **zeta_zeros_10000.json** - Pre-computed database (ready to use)
+- **generate_zeta_zeros.py** - Generator script (for reproduction/customization)
+
+## Quick Start
+
+### Using Pre-computed Data
+```python
+from zeta_resonance import load_zeta_zeros
+
+gammas, weights, metadata = load_zeta_zeros('data/zeta_zeros_10000.json')
+```
+
+### Regenerating the Database
+```bash
+cd data
+python generate_zeta_zeros.py -K 10000 -T 10000 --dps 80 --out zeta_zeros_10000.json
+```
+
+**Requirements:**
+- Python 3.7+
+- mpmath library: `pip install mpmath`
+
+**Computation time:** ~4 hours on Google Colab A100 GPU
+
+### Custom Parameters
+
+Generate with different settings:
+```bash
+# Smaller database (faster)
+python generate_zeta_zeros.py -K 1000 -T 1000 --out zeta_zeros_1000.json
+
+# Higher precision
+python generate_zeta_zeros.py -K 10000 -T 10000 --dps 100
+
+# Different bandwidth
+python generate_zeta_zeros.py -K 10000 -T 5000
+```
+
 ## File Format
 
 **zeta_zeros_10000.json**
