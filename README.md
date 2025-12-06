@@ -95,7 +95,7 @@ Detected 762 digit pattern signatures
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/miosync/digit-consonance)
 ```python
-!git clone https://github.com/miosync/digit-consonance.git
+!git clone https://github.com/miosync-masa/digit-consonance.git
 %cd digit-consonance
 !python consonance.py
 !python zeta_resonance.py
