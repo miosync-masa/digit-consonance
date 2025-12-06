@@ -52,7 +52,7 @@ JSON structure:
     "source": "mpmath_zetazero",
     "version": "2.0",
     "K": 10000,
-    "T": 10000.0,
+    "T": 5000.0,
     "accuracy": "mpmath dps=80",
     "zeros": [
         {"n": 1, "gamma": 14.134725141734693790..., "w": 0.061578...},
