@@ -26,10 +26,10 @@ MIT License
 Authors
 -------
 Masamichi Iizumi
-"""
 
 __version__ = "1.0.0"
 __author__ = "Masamichi Iizumi
+"""
 
 import math
 import json
