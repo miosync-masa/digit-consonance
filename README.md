@@ -225,7 +225,3 @@ The zeta zero database (`data/zeta_zeros_10000.json`) is in the public domain as
 ---
 
 *"All is number, and number is music."* - Pythagoras (attributed)
-
-✅ data/README.md ← NEW!
-✅ README.md ← NEW!
-□ paper/consonance_paper.pdf（あとで追加でOK）
